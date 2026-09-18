@@ -1,0 +1,20 @@
+{
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "adapter": "qwen2.5-3b-grader-qlora/final_adapter",
+  "evaluation_type": "QLoRA fine-tuned model",
+  "dataset": "dataset_split/test.json",
+  "random_seed": 42,
+  "num_test_records": 150,
+  "successful_predictions": 150,
+  "failed_predictions": 0,
+  "mae": 1.3466666666666667,
+  "rmse": 2.4413111231467406,
+  "exact_total_score_accuracy": 0.4533333333333333,
+  "rubric_level_accuracy": 0.8544395924308588,
+  "pearson_r": 0.8185562511965676,
+  "pearson_p_value": 1.8548126407176926e-37,
+  "spearman_rho": 0.8527409836746389,
+  "spearman_p_value": 1.3820616772174204e-43,
+  "total_missing_criteria": 6,
+  "total_invalid_predictions": 0
+}

@@ -1,0 +1,18 @@
+{
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "dataset": "dataset_split/complete_TEST_data.json",
+  "random_seed": 42,
+  "num_test_records": 1000,
+  "successful_predictions": 1000,
+  "failed_predictions": 0,
+  "mae": 2.992,
+  "rmse": 3.9764305601883705,
+  "exact_total_score_accuracy": 0.211,
+  "rubric_level_accuracy": 0.6954,
+  "pearson_r": 0.6666312355767443,
+  "pearson_p_value": 1.6416698938711047e-129,
+  "spearman_rho": 0.6632220681564319,
+  "spearman_p_value": 9.521251329075934e-128,
+  "total_missing_criteria": 0,
+  "total_invalid_predictions": 0
+}

@@ -1,0 +1,53 @@
+﻿# ── Model weights & checkpoints (upload to HuggingFace Hub instead) ──
+qwen2.5-3b-grader-qlora/checkpoint-*/
+qwen2.5-3b-grader-qlora/final_adapter/adapter_model.safetensors
+qwen2.5-3b-grader-qlora/final_adapter/tokenizer.json
+
+# Keep these config files (small, useful for reproducibility)
+!qwen2.5-3b-grader-qlora/final_adapter/adapter_config.json
+!qwen2.5-3b-grader-qlora/final_adapter/tokenizer_config.json
+!qwen2.5-3b-grader-qlora/final_adapter/chat_template.jinja
+!qwen2.5-3b-grader-qlora/training_metrics.json
+!qwen2.5-3b-grader-qlora/README.md
+
+# ── Large dataset files ──
+complete_dataset.json
+dataset_split/complete_TEST_data.json
+dataset_split/train.json
+dataset_split/validation.json
+dataset_split/train.jsonl
+dataset_split/validation.jsonl
+
+# Keep test sets and split config (small, needed for evaluation)
+!dataset_split/test.json
+!dataset_split/test.jsonl
+
+# ── Large prediction JSON files ──
+*/predictions.json
+
+# ── Python cache ──
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ── Report generation artefacts ──
+report_charts/
+report_charts_v2/
+Project_Report.docx
+Project_Report_Updated.docx
+generate_report.py
+generate_report_v2.py
+generate_full_report.py
+generate_final_v2.py
+
+# ── Jupyter / IDE ──
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# ── OS files ──
+.DS_Store
+Thumbs.db
+~$*
